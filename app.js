@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:false}));
 app.use('/',config);
 
 
-var name = 'aabcc';
+var name = 'Ragu'
 let final = []
 for (var i = 0;i< name.length;i++){
   for(var j = 1;j < name.length;j++){
